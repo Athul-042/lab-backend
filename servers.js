@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('YOUR_ATLAS_CONNECTION_STRING', {
+mongoose.connect('mongodb+srv://Athul:Athul@001@cluster0.iusbbwz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
